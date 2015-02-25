@@ -5,6 +5,11 @@ import (
 	"math/rand"
 )
 
+func search(words []string, searchWord string){
+	nwords := len(searchWord)
+	for i:=0; i<len(searchWord)
+}
+
 func main() {
 	fmt.Println("For loop funs!")
 	for i := 0; i < 2; i++ {
@@ -19,7 +24,10 @@ func main() {
 	}
 
 	fmt.Println("For loop MADNESS")
-	for i := rand.Int(); i%2 == 0; i = rand.Int() {
+
+	var i int
+	for i = 1; i%2 != 0; i = rand.Int() {
 		fmt.Printf("%d\n", i)
 	}
+	fmt.Printf("%d is even\n", i)
 }
