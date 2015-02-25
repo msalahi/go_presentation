@@ -1,0 +1,22 @@
+what is go? statically/strongly typed language geared toward concurrent programming, esp networks
+
+has everyone used a statically typed language?
+
+go into intro examples
+
+  - variable/const initialization
+  - types
+  - functions
+  - coroutines
+
+what are coroutines? blocking function vs. coroutine
+
+small networks overview:
+  - LAN / WAN
+  - NATing
+  - sockets = "file-like", can read and write to, accessible via FS, uniquely identified by IP address and port
+  - 127.0.0.1 vs. 0.0.0.0
+  - bytes
+  - tcp & udp
+
+fill in sayserver
